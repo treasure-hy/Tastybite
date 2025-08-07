@@ -4,9 +4,26 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   color: antiquewhite;
   font-size: large;
+  padding: 0;
+  margin: 0;
 }
 h3 {
   color: white;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  justify-self: center;
+  width: max-content;
+  border: 2px solid blue;
+  background-color: burlywood;
+}
+.logo img {
+  width: 80px;
+  height: 80px;
+  display: inline;
 }
 figcaption {
   color: white;
@@ -18,9 +35,7 @@ ul {
   margin: 0; /*Removes default top/bottom margin*/
   padding: 0; /*Removes default left padding*/
 }
-p {
-  word-spacing: 3px;
-}
+
 a {
   text-decoration: none;
   color: black;
@@ -34,12 +49,36 @@ footer {
 .sold-out {
   color: #901e3e;
 }
+.container {
+  background-color: wheat;
+  border: 12px;
+  width: 200px;
+  height: max-content;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  margin: 10px;
+}
+.order {
+  margin-bottom: 30px;
+}
 
 /* ID STYLES */
 #premium {
-  color: gold;
+  color: black;
 }
 /* available style */
 .available {
   color: #8abb6c;
+}
+.logo {
+  display: flex;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+#more-container {
+  flex: 2;
 }
