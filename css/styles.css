@@ -1,0 +1,45 @@
+/* HTML TAGS */
+body {
+  background-color: #689b8a;
+  font-family: Arial, Helvetica, sans-serif;
+  color: antiquewhite;
+  font-size: large;
+}
+h3 {
+  color: white;
+}
+figcaption {
+  color: white;
+  font-weight: 500;
+  font-size: large;
+}
+ul {
+  list-style-type: none;
+  margin: 0; /*Removes default top/bottom margin*/
+  padding: 0; /*Removes default left padding*/
+}
+p {
+  word-spacing: 3px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+footer {
+  background-color: white;
+  color: chocolate; /* or #D2691E */
+}
+
+/* CLASSES STYLES */
+.sold-out {
+  color: #901e3e;
+}
+
+/* ID STYLES */
+#premium {
+  color: gold;
+}
+/* available style */
+.available {
+  color: #8abb6c;
+}

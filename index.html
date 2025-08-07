@@ -4,6 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TASTYBITE</title>
+    <link rel="stylesheet" href="/css/styles.css " />
+    <!-- <style>
+      body {
+        background-color: chocolate;
+      }
+      h3 {
+        color: white;
+      }
+      figcaption {
+        color: white;
+        font-weight: 600;
+        font-size: x-large;
+      }
+    </style> -->
   </head>
   <body>
     <table>
@@ -25,7 +39,7 @@
       <nav>
         <table>
           <tr>
-            <td><a href="home.html">Home</a></td>
+            <td><a href="index.html">Home</a></td>
             <td><a href="Form.html">Order</a></td>
           </tr>
         </table>
@@ -45,8 +59,8 @@
                 height="150"
               />
             </figure>
-            <figcaption>Jollof rice with Chicken</figcaption>
-            <figcaption>$9</figcaption>
+            <figcaption class="available">Jollof rice with Chicken</figcaption>
+            <figcaption class="available">$9</figcaption>
           </td>
           <td>
             <figure>
@@ -57,8 +71,8 @@
                 height="150"
               />
             </figure>
-            <figcaption>Bean and Breads</figcaption>
-            <figcaption>$5</figcaption>
+            <figcaption class="available">Bean and Breads</figcaption>
+            <figcaption class="available">$5</figcaption>
           </td>
           <td>
             <figure>
@@ -69,8 +83,8 @@
                 height="150"
               />
             </figure>
-            <figcaption>Ofada rice</figcaption>
-            <figcaption>$7</figcaption>
+            <figcaption id="premium">Ofada rice</figcaption>
+            <figcaption id="premium">$40</figcaption>
           </td>
           <td>
             <figure>
@@ -81,8 +95,8 @@
                 height="150"
               />
             </figure>
-            <figcaption>Boli</figcaption>
-            <figcaption>$10</figcaption>
+            <figcaption class="available">Boli</figcaption>
+            <figcaption class="available">$10</figcaption>
           </td>
           <td>
             <figure>
@@ -93,8 +107,8 @@
                 height="150"
               />
             </figure>
-            <figcaption>Goat meat Peppersoup</figcaption>
-            <figcaption>$6</figcaption>
+            <figcaption class="available">Goat meat Peppersoup</figcaption>
+            <figcaption class="available">$6</figcaption>
           </td>
         </tr>
         <!-- row2 -->
@@ -109,8 +123,10 @@
                 height="150"
               />
             </figure>
-            <figcaption>Eba and Egusi soup with assorted</figcaption>
-            <figcaption>$7</figcaption>
+            <figcaption class="available">
+              Eba and Egusi soup with assorted
+            </figcaption>
+            <figcaption class="available">$7</figcaption>
           </td>
           <td>
             <figure>
@@ -121,8 +137,10 @@
                 height="150"
               />
             </figure>
-            <figcaption>Tuwo Shinkafa and Vegetable Soups</figcaption>
-            <figcaption>$8</figcaption>
+            <figcaption class="sold-out">
+              Tuwo Shinkafa and Vegetable Soups
+            </figcaption>
+            <figcaption class="sold-out">$8</figcaption>
           </td>
           <td>
             <figure>
@@ -133,8 +151,8 @@
                 height="150"
               />
             </figure>
-            <figcaption>Amala with Ewedu</figcaption>
-            <figcaption>$7</figcaption>
+            <figcaption class="available">Amala with Ewedu</figcaption>
+            <figcaption class="available">$7</figcaption>
           </td>
           <td>
             <figure>
@@ -145,8 +163,8 @@
                 height="150"
               />
             </figure>
-            <figcaption>Akara,Milk with Pap</figcaption>
-            <figcaption>$6</figcaption>
+            <figcaption class="available">Akara,Milk with Pap</figcaption>
+            <figcaption class="available">$6</figcaption>
           </td>
           <td>
             <figure>
@@ -157,8 +175,8 @@
                 height="150"
               />
             </figure>
-            <figcaption>Banga soup and Usi</figcaption>
-            <figcaption>$7</figcaption>
+            <figcaption class="sold-out">Banga soup and Usi</figcaption>
+            <figcaption class="sold-out">$7</figcaption>
           </td>
         </tr>
       </table>
@@ -176,8 +194,10 @@
                 height="150"
               />
             </figure>
-            <figcaption>Fried plantain with gizzard stew</figcaption>
-            <figcaption>$10</figcaption>
+            <figcaption id="premium">
+              Fried plantain with gizzard stew
+            </figcaption>
+            <figcaption id="premium">$100</figcaption>
           </td>
           <td>
             <figure>
@@ -188,8 +208,8 @@
                 height="150"
               />
             </figure>
-            <figcaption>Chicken and chips</figcaption>
-            <figcaption>$12</figcaption>
+            <figcaption class="sold-out">Chicken and chips</figcaption>
+            <figcaption class="sold-out">$12</figcaption>
           </td>
           <td>
             <figure>
@@ -200,8 +220,8 @@
                 height="150"
               />
             </figure>
-            <figcaption>Chicken Burger with Chips</figcaption>
-            <figcaption>$15</figcaption>
+            <figcaption class="available">Chicken Burger with Chips</figcaption>
+            <figcaption class="available">$15</figcaption>
           </td>
           <td>
             <figure>
@@ -212,8 +232,8 @@
                 height="150"
               />
             </figure>
-            <figcaption>4pc crispy Chicken Combo</figcaption>
-            <figcaption>$15</figcaption>
+            <figcaption id="premium">4pc crispy Chicken Combo</figcaption>
+            <figcaption id="premium">$80</figcaption>
           </td>
           <td>
             <figure>
@@ -224,8 +244,8 @@
                 height="150"
               />
             </figure>
-            <figcaption>Grilled tillapia Fish</figcaption>
-            <figcaption>$17</figcaption>
+            <figcaption id="premium">Grilled tillapia Fish</figcaption>
+            <figcaption id="premium">$50</figcaption>
           </td>
         </tr>
       </table>
@@ -243,7 +263,9 @@
         <li>Meat, Fish, Ponmo, Chicken wing and laps,</li>
       </ul>
     </section>
+
     <a href="Form.html">Place your Order</a>
+
     <footer><p>©2024 Tastybites Epe,Lagos</p></footer>
   </body>
 </html>
